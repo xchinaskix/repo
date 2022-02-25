@@ -5,7 +5,7 @@ From local PC `run_all_docker.sh`
 <br>
 or easiest way 
 
-docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l http://kremlin.rbru
+docker run -ti --rm alpine/bombardier -c 1000 -d 60s -l http://kremlin.ru
 <br>
 sites
 https://mil.ru
