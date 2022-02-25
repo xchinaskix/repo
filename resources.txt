@@ -46,4 +46,4 @@ https://sputnik-abkhazia.ru/
 http://francais.rt.com,
 https://novorosinform.org/
 https://ren.tv/
-https://zvezda.ru
+http://tvzvezda.ru/
