@@ -7,5 +7,4 @@ do
    export NAME=`echo $i| sed 's/\///g'|sed 's/://g'`
    envsubst < "bombardier.yaml" > "bombardier_dst.yaml"
    kubectl apply -f bombardier_dst.yaml
-
 done
