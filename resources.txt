@@ -17,3 +17,6 @@ https://fsb.ru
  https://vgtrk.ru
  https://ria.ru
  https://rambler.ru
+ https://gazeta.ru
+ https://duma.gov.ru
+ https://belta.by
