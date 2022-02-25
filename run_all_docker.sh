@@ -4,5 +4,5 @@ for i in "${lines[@]}"
 do
    echo "$i"
    export URL=$i
-   docker run  -d  alpine/bombardier -c 300 -d 60000h -l $URL 
+   docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l $URL 
  done
