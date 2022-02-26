@@ -1,7 +1,4 @@
 https://mil.ru
-http://www.scrf.gov.ru
-https://ach.gov.ru
-https://epp.genproc.gov.ru
 https://www.gosuslugi.ru
 http://kremlin.ru
 https://mid.ru
@@ -18,7 +15,6 @@ https://vgtrk.ru
 https://ria.ru
 https://rambler.ru
 https://gazeta.ru
-https://duma.gov.ru
 https://belta.by
 https://mk.ru
 https://gazprom.ru
