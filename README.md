@@ -5,6 +5,8 @@ If you have kubertnetes cluster `./run_all_kuber.sh`
 <br>
 From local PC `./run_all_docker.sh`
 <br>
+You can specify the path to the file with the URLs: `./run_all_docker.sh file.txt` or `./run_all_kuber.sh file.txt`
+<br>
 or easiest way 
 
 `docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru`
