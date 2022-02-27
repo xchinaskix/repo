@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -z "$1" ]
   then
     RESOURCES_FILE="resources.txt"
