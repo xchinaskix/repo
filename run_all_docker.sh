@@ -8,11 +8,18 @@ fi
 
 echo "File: $RESOURCES_FILE"
 
-IFS=$'\n' read -d '' -r -a lines < $RESOURCES_FILE
-
-for i in "${lines[@]}"
+cat peptides.txt | while read line 
 do
-   echo "$i"
-   export URL=$i
-   docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l $URL 
- done
+  # echo "$i"
+  # export URL=$i
+  docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l line
+done
+
+# IFS=$'\n' read -d '' -r -a lines < $RESOURCES_FILE
+
+# for i in "${lines[@]}"
+# do
+#    echo "$i"
+#    export URL=$i
+#    docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l $URL 
+#  done
