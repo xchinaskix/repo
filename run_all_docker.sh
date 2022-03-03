@@ -12,6 +12,7 @@ cat resources.txt | while read line
 do
   # echo "$i"
   # export URL=$i
+  echo "running $line"
   docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l line
 done
 
