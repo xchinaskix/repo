@@ -8,7 +8,7 @@ fi
 
 echo "File: $RESOURCES_FILE"
 
-cat peptides.txt | while read line 
+cat resources.txt | while read line 
 do
   # echo "$i"
   # export URL=$i
