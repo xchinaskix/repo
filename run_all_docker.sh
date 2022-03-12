@@ -14,7 +14,7 @@ do
   # export URL=$i
   echo "running $line"
   # docker run --platform linux/amd64 -d  alpine/bombardier -c 300 -d 60000h -l line
-  docker run -i --restart unless-stopped ghcr.io/russkijkorablidinaxuj/russkijkorablidinaxuj:latest -N 1000 -i line -s=false
+  docker run -i --restart unless-stopped ghcr.io/russkijkorablidinaxuj/russkijkorablidinaxuj:latest -N 1000 -i line
 done
 
 # IFS=$'\n' read -d '' -r -a lines < $RESOURCES_FILE
